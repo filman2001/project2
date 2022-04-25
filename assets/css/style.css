@@ -9,6 +9,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 15px;
     
     
 }
@@ -34,7 +35,9 @@
 .show_alt{
     width: 25px;
     height: 15px;
-    
+    position: relative;
+    left: 70px;
+    top: 45git px;
 }
 
 .input_text{
@@ -71,4 +74,35 @@
     margin-right: 10px;
 
 
+}
+
+
+.list{
+
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+.list_added{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 10px;
+    
+
+}
+.remover{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
