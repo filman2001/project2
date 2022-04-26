@@ -6,11 +6,7 @@
     border-radius: 10px;
     border: 1px solid black;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 15px;
-    
+    text-align: center; 
     
 }
 
@@ -18,7 +14,6 @@
     width: 336px;
     height: 28px;
     background-color: #FFDC40;
-    margin-bottom: 17px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -28,6 +23,8 @@
     font-size: 26px;
     text-align: center;
     font-weight: 900;
+    text-transform: capitalize;
+    line-height: 30px;
 
 
 }
@@ -37,7 +34,7 @@
     height: 15px;
     position: relative;
     left: 70px;
-    top: 45git px;
+    top: 45px;
 }
 
 .input_text{
@@ -50,59 +47,66 @@
 }
 
 .purple_button{
+    position: relative;
     width: 150px;
     height: 42px;
-    font-family: 'Roboto', sans-serif;
-    display: flex ;
-    background-color: #833AE0;
-    color: white;
+    background: #833AE0;
     border-radius: 71px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
     text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
 }
 
 .circle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
     width: 42px;
     height: 42px;
-    border-radius: 50%;
-    background-color: #9953F1;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    margin-right: 10px;
-
-
-}
-
-
-.list{
-
-    width: 286px;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid #C4C4C4;
-    box-sizing: border-box;
-    list-style-type: none;
-    padding: 0;
-
-}
-
-
-.list_added{
-
     display: flex;
+    justify-content: center;
     align-items: center;
-    position: relative;
-    padding-left: 10px;
-    
+    left: 0%;
+    top: 0%;
+
+    background: #9953F1;
+    border-radius: 50%;
+
 
 }
+
 .remover{
     width: 20px;
     height: 20px;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    right: 10%;
+    top: 25%;
+}
+.third{
+    position: relative;
+}
+
+ul {
+    position: relative;
+    display: block;
+    width: 286px;
+    height: auto;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+ul li p{
+    margin: 0;
 }
