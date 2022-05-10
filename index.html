@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>
 
 
     <main>
-        <div class="container">
-            <div class="boxtodo">
-                <div class="yellow_box"></div>
-                
-                <h2 class="text">To-Do List</h2>
-                <div class="drop"><img src="./assets/images/Group 74.png" class="show_alt" alt="show_alt"></div>
-                
-                <div class="third">
-                    <input class="input_text" type="text">
-                    <input class="remover" type="image" src="./assets/images/Group 77.png">
-                </div>
-                <ul></ul>
-                
+        
+    <div class="container">
+        <div class="todo-list_area">
 
-                <button class="purple_button">
-                    <span class="circle">+</span>Добавить
-                </button>
-            
+            <div class="span"></div>
+
+            <h1>To-Do List</h1>
+
+            <div class="sort-btn-area">
+                <button class="sort"><img class="sort-svg" src="./assets/images/Group 74.png" alt=""></button>
+            </div>
+
+            <input type="text" class="todo" name="todo-input" id="todo-input">
+
+            <ul class="listik">
+                
+            </ul>
+
+            <button type="submit" class="add">
+                <div class="circle-btn">+</div>
+                Добавить
+            </button>
+           
         </div>
+    </div>
     </main>
+
     
 </body>
 </html>
